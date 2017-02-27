@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="drawer">
+
+    <header>
+      <button class="play-btn">{{playBtnLabel}}</button>
+      <p class="message">{{message}}</p>
+
+      <div class="dice-roll">
+        <div class="opponent"></div>
+        <div class="dice-rolling"></div>
+        <div class="dice-score"></div>
+        <div class="dice-result"></div>
+      </div>
+
+    </header>
+
+    <main class="board">
+      <div class="cell circle"></div>
+      <div class="cell cross"></div>
+      <div class="cell circle"></div>
+      <div class="cell cross"></div>
+      <div class="cell circle"></div>
+      <div class="cell"></div>
+      <div class="cell cross"></div>
+      <div class="cell cross"></div>
+      <div class="cell"></div>
+    </main>
+
+    <footer class="scores hide">
+
+      <div>
+        <span>{{playerName}}</span>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div>
+        <span>{{opponentName}}</span>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <script src="game.js"></script>
+</body>
+
+</html>
