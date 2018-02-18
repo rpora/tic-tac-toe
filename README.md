@@ -1,6 +1,6 @@
 # Tic Tac Toe Game - Vanilla Javascript
 
-[Play here! :)](https://rpora.github.io/tic-tac-toe/)
+[Play! :)](https://rpora.github.io/tic-tac-toe/)
 
 AI driven by the minimax algorithm.
 
